@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Calculator</title>
 </head>
 <body>
     
-
+    <main class="main container">
+        
+        <h2 class="main__heading">How much time does it take?</h2>
+        
+        <form class="distance__form" action="">
+            
+            <input class="distance__input" type="text" placeholder="Type distance (km)">
+            
+            <button class="distance__calculator">Calculate</button>
+            
+            
+            
+            <ul class="collector">
+                
+                <li class="collector__list">
+                    
+                    <img class="collector__pic" src="./img/walking-person-go-walk-move-svgrepo-com.svg" width="100" height="100" alt="#">
+                    
+                    <h3 class="collector__heading">Walk</h3>
+                    
+                    <input class="walk__converted convert" type="text" disabled>
+                    
+                </li>
+                
+                <li class="collector__list">
+                    
+                    <img class="collector__pic" src="./img/bicycle-svgrepo-com.svg" width="100" height="100" alt="#">
+                    
+                    <h3 class="collector__heading">Bike</h3>
+                    
+                    <input class="bike__converted convert" type="text" disabled>
+                    
+                    
+                </li>
+                
+                <li class="collector__list">
+                    
+                    <img class="collector__pic" src="./img/car-svgrepo-com.svg" width="100" height="100" alt="#">
+                    
+                    <h3 class="collector__heading">Car</h3>
+                    
+                    <input class="car__converted convert" type="text" disabled>
+                    
+                </li>
+                
+                <li class="collector__list">
+                    
+                    <img class="collector__pic" src="./img/plane-svgrepo-com.svg" width="100" height="100" alt="#">
+                    
+                    <h3 class="collector__heading">Plane</h3>
+                    
+                    <input class="plane__converted convert" type="text" disabled>
+                    
+                </li>
+                
+            </ul>
+            
+        </form>
+        
+    </main>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

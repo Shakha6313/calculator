@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1165px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__heading{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.distance__form {
+    margin-bottom: 50px;
+}
+
+.distance__input {
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.distance__calculator {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    transition: all 0.2s ease;
+}
+
+.distance__calculator:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.collector {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collector__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+}
+
+.collector__pic {
+    margin: 15px;
+}
+
+.collector__heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.collector__form {
+
+}
+
+.convert {
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    opacity: 0.8;
+    height: 30px;
+}
+
+.distance__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.distance__input{
+    margin-bottom: 10px;
+}
